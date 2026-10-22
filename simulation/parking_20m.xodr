@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpenDRIVE xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <header revMajor="1" revMinor="4" name="ABS20m" date="2026-02-20P02:34:48" vendor="dSPACE GmbH" />
+  <road name="Parking" length="20" id="1673615456" junction="-1">
+    <link />
+    <type s="0" type="unknown">
+      <speed max="200" unit="km/h" />
+    </type>
+    <planView>
+      <geometry s="0" x="0" y="0" hdg="0" length="20">
+        <line />
+      </geometry>
+    </planView>
+    <elevationProfile>
+      <elevation s="0" a="0" b="0" c="0" d="0" />
+      <elevation s="20" a="0" b="0" c="0" d="0" />
+    </elevationProfile>
+    <lateralProfile>
+      <superelevation s="0" a="0" b="0" c="0" d="0" />
+    </lateralProfile>
+    <lanes>
+      <laneOffset s="0" a="11.25" b="0" c="0" d="0" />
+      <laneSection s="0">
+        <center>
+          <lane id="0" type="driving">
+            <roadMark type="solid" width="0.25" />
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" type="driving">
+            <link />
+            <width sOffset="0" a="7.5" b="0" c="0" d="-0" />
+            <width sOffset="5" a="7.5" b="0" c="0" d="0" />
+            <roadMark type="solid" width="0.25" />
+          </lane>
+          <lane id="-2" type="driving">
+            <link />
+            <width sOffset="0" a="7.5" b="0" c="0" d="-0" />
+            <width sOffset="5" a="7.5" b="0" c="0" d="0" />
+            <roadMark type="solid" width="0.25" />
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+  </road>
+</OpenDRIVE>

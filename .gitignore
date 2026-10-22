@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv_carla/
+venv/
+.venv/
+env/
+ENV/
+.env
+
+# Videos (too large for GitHub -> see the YouTube link in the README)
+*.mp4
+*.avi
+*.mov
+*.mkv
+media/
+
+# Datasets and captured frames (several GB)
+data/
+_out_*/
+dataset_parking_*/
+dataset_final_*/
+
+# Weights: only the project's trained models are versioned.
+# yolo11n.pt / yolo11s.pt are downloaded automatically by Ultralytics.
+*.pt
+*.pth
+*.onnx
+!models/best.pt
+!models/best_v2.pt
+
+# Local-only files
+_privado/
+docs/referencias/
+
+# Office temp files and OS files
+~$*
+*.log
+.DS_Store
+Thumbs.db
